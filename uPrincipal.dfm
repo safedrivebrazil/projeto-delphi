@@ -9232,8 +9232,8 @@ object frmPrincipal: TfrmPrincipal
     end
   end
   object MainMenu1: TMainMenu
-    Left = 72
-    Top = 24
+    Left = 48
+    Top = 8
     object mniCadastro: TMenuItem
       Caption = 'Cadastros'
       object mniClientes: TMenuItem

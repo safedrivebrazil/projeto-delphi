@@ -109,6 +109,14 @@
             <Form>frmCadClientes</Form>
             <FormType>dfm</FormType>
         </DCCReference>
+        <DCCReference Include="uFrmBaseGrid.pas">
+            <Form>frmBaseGrid</Form>
+            <FormType>dfm</FormType>
+        </DCCReference>
+        <DCCReference Include="ufrmBaseCad.pas">
+            <Form>frmBaseCad</Form>
+            <FormType>dfm</FormType>
+        </DCCReference>
         <BuildConfiguration Include="Base">
             <Key>Base</Key>
         </BuildConfiguration>
