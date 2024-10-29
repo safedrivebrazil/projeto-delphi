@@ -3,7 +3,8 @@ unit uPrincipal;
 interface
 
 uses
-  Winapi.Windows, Winapi.Messages, System.SysUtils, System.Variants, System.Classes, Vcl.Graphics,
+  Winapi.Windows, Winapi.Messages, System.SysUtils, System.Variants,
+  System.Classes, Vcl.Graphics,
   Vcl.Controls, Vcl.Forms, Vcl.Dialogs, Vcl.Menus, Vcl.ExtCtrls,
   Vcl.Imaging.jpeg;
 
@@ -16,7 +17,10 @@ type
     pnlTop: TPanel;
     pnlCenter: TPanel;
     imagem: TImage;
+    mniAjuda: TMenuItem;
+    mniTema: TMenuItem;
     procedure mniClientesClick(Sender: TObject);
+    procedure mniTemaClick(Sender: TObject);
   private
     { Private declarations }
   public
@@ -30,13 +34,20 @@ implementation
 
 {$R *.dfm}
 
-uses uCadClientes, uFrmBaseGrid;
+uses uCadClientes, uFrmBaseGrid, uFrmAjuda;
 
 procedure TfrmPrincipal.mniClientesClick(Sender: TObject);
 begin
-  frmBaseGrid:=TfrmBaseGrid.Create(application);
+  frmBaseGrid := TfrmBaseGrid.Create(application);
   frmBaseGrid.ShowModal;
   frmBaseGrid.Free;
+end;
+
+procedure TfrmPrincipal.mniTemaClick(Sender: TObject);
+begin
+  frmAjuda := TfrmAjuda.Create(application);
+  frmAjuda.ShowModal;
+  frmAjuda.Free;
 end;
 
 end.

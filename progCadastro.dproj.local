@@ -4,19 +4,22 @@
     <Transaction>2024/07/20 20:44:52.000.278,=C:\Users\fuzit\OneDrive\Documentos\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
     <Transaction>2024/09/17 20:24:25.000.733,=C:\Users\fuzit\OneDrive\Documentos\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
     <Transaction>2024/10/19 20:34:20.000.887,=C:\Users\fuzit\OneDrive\Documentos\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
-    <Transaction>2024/10/19 20:34:44.000.507,C:\projetos\projeto-delphi\uPrincipal.pas=C:\Users\fuzit\OneDrive\Documentos\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
-    <Transaction>2024/10/19 20:34:44.000.507,C:\projetos\projeto-delphi\uPrincipal.dfm=C:\Users\fuzit\OneDrive\Documentos\Embarcadero\Studio\Projects\Unit1.dfm</Transaction>
-    <Transaction>2024/10/19 20:35:01.000.394,C:\projetos\projeto-delphi\progCadastro.dproj=C:\Users\fuzit\OneDrive\Documentos\Embarcadero\Studio\Projects\Project1.dproj</Transaction>
+    <Transaction>2024/10/19 20:34:44.000.507,C:\Users\fuzit\OneDrive\Documentos\Embarcadero\Studio\Projects\Unit1.dfm=C:\projetos\projeto-delphi\uPrincipal.dfm</Transaction>
+    <Transaction>2024/10/19 20:34:44.000.507,C:\Users\fuzit\OneDrive\Documentos\Embarcadero\Studio\Projects\Unit1.pas=C:\projetos\projeto-delphi\uPrincipal.pas</Transaction>
+    <Transaction>2024/10/19 20:35:01.000.394,C:\Users\fuzit\OneDrive\Documentos\Embarcadero\Studio\Projects\Project1.dproj=C:\projetos\projeto-delphi\progCadastro.dproj</Transaction>
     <Transaction>2024/10/27 08:49:10.000.628,=C:\projetos\projeto-delphi\Unit2.pas</Transaction>
-    <Transaction>2024/10/27 08:49:31.000.438,C:\projetos\projeto-delphi\Unit2.dfm=C:\projetos\projeto-delphi\uClientes.dfm</Transaction>
-    <Transaction>2024/10/27 08:49:31.000.438,C:\projetos\projeto-delphi\Unit2.pas=C:\projetos\projeto-delphi\uClientes.pas</Transaction>
-    <Transaction>2024/10/27 08:49:48.000.241,C:\projetos\projeto-delphi\uClientes.pas=C:\projetos\projeto-delphi\uCadClientes.pas</Transaction>
-    <Transaction>2024/10/27 08:49:48.000.241,C:\projetos\projeto-delphi\uClientes.dfm=C:\projetos\projeto-delphi\uCadClientes.dfm</Transaction>
-    <Transaction>2024/10/29 14:14:07.158,=C:\projetos\projeto-delphi\Unit1.pas</Transaction>
-    <Transaction>2024/10/29 14:14:10.867,=C:\projetos\projeto-delphi\Unit2.pas</Transaction>
-    <Transaction>2024/10/29 14:14:23.679,C:\projetos\projeto-delphi\uFrmBaseGrid.pas=C:\projetos\projeto-delphi\Unit1.pas</Transaction>
-    <Transaction>2024/10/29 14:14:23.679,C:\projetos\projeto-delphi\uFrmBaseGrid.dfm=C:\projetos\projeto-delphi\Unit1.dfm</Transaction>
-    <Transaction>2024/10/29 14:14:51.091,C:\projetos\projeto-delphi\ufrmBaseCad.dfm=C:\projetos\projeto-delphi\Unit2.dfm</Transaction>
-    <Transaction>2024/10/29 14:14:51.091,C:\projetos\projeto-delphi\ufrmBaseCad.pas=C:\projetos\projeto-delphi\Unit2.pas</Transaction>
+    <Transaction>2024/10/27 08:49:31.000.438,C:\projetos\projeto-delphi\uClientes.pas=C:\projetos\projeto-delphi\Unit2.pas</Transaction>
+    <Transaction>2024/10/27 08:49:31.000.438,C:\projetos\projeto-delphi\uClientes.dfm=C:\projetos\projeto-delphi\Unit2.dfm</Transaction>
+    <Transaction>2024/10/27 08:49:48.000.241,C:\projetos\projeto-delphi\uCadClientes.dfm=C:\projetos\projeto-delphi\uClientes.dfm</Transaction>
+    <Transaction>2024/10/27 08:49:48.000.241,C:\projetos\projeto-delphi\uCadClientes.pas=C:\projetos\projeto-delphi\uClientes.pas</Transaction>
+    <Transaction>2024/10/29 14:14:07.000.158,=C:\projetos\projeto-delphi\Unit1.pas</Transaction>
+    <Transaction>2024/10/29 14:14:10.000.867,=C:\projetos\projeto-delphi\Unit2.pas</Transaction>
+    <Transaction>2024/10/29 14:14:23.000.679,C:\projetos\projeto-delphi\Unit1.dfm=C:\projetos\projeto-delphi\uFrmBaseGrid.dfm</Transaction>
+    <Transaction>2024/10/29 14:14:23.000.679,C:\projetos\projeto-delphi\Unit1.pas=C:\projetos\projeto-delphi\uFrmBaseGrid.pas</Transaction>
+    <Transaction>2024/10/29 14:14:51.000.091,C:\projetos\projeto-delphi\Unit2.pas=C:\projetos\projeto-delphi\ufrmBaseCad.pas</Transaction>
+    <Transaction>2024/10/29 14:14:51.000.091,C:\projetos\projeto-delphi\Unit2.dfm=C:\projetos\projeto-delphi\ufrmBaseCad.dfm</Transaction>
+    <Transaction>2024/10/29 14:56:42.260,=C:\projetos\projeto-delphi\Unit1.pas</Transaction>
+    <Transaction>2024/10/29 14:59:25.920,C:\projetos\projeto-delphi\uFrmAjuda.dfm=C:\projetos\projeto-delphi\Unit1.dfm</Transaction>
+    <Transaction>2024/10/29 14:59:25.920,C:\projetos\projeto-delphi\uFrmAjuda.pas=C:\projetos\projeto-delphi\Unit1.pas</Transaction>
   </Transactions>
 </BorlandProject>

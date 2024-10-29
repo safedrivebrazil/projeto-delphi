@@ -32,7 +32,7 @@ object frmPrincipal: TfrmPrincipal
     BevelOuter = bvNone
     TabOrder = 1
     ExplicitWidth = 624
-    ExplicitHeight = 400
+    ExplicitHeight = 397
     object imagem: TImage
       Left = 0
       Top = 0
@@ -9243,6 +9243,13 @@ object frmPrincipal: TfrmPrincipal
     end
     object mniVendas: TMenuItem
       Caption = 'Vendas'
+    end
+    object mniAjuda: TMenuItem
+      Caption = 'Ajuda'
+      object mniTema: TMenuItem
+        Caption = 'Tema'
+        OnClick = mniTemaClick
+      end
     end
   end
 end
