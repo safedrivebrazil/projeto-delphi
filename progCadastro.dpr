@@ -10,8 +10,9 @@ uses
   Vcl.Styles,
   uFrmAjuda in 'uFrmAjuda.pas' {frmAjuda},
   funcoes in 'comum\funcoes.pas',
-  uClientes in 'uClientes.pas',
-  uDM in 'dados\uDM.pas' {DM: TDataModule};
+  uDM in 'dados\uDM.pas' {DM: TDataModule},
+  ufrmListarClientes in 'ufrmListarClientes.pas' {frmListarClientes},
+  uClientes in 'uClientes.pas';
 
 {$R *.res}
 

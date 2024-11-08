@@ -34,13 +34,13 @@ implementation
 
 {$R *.dfm}
 
-uses uCadClientes, uFrmBaseGrid, uFrmAjuda;
+uses uCadClientes, uFrmAjuda, ufrmListarClientes;
 
 procedure TfrmPrincipal.mniClientesClick(Sender: TObject);
 begin
-  frmBaseGrid := TfrmBaseGrid.Create(application);
-  frmBaseGrid.ShowModal;
-  frmBaseGrid.Free;
+  frmListarClientes := TfrmListarClientes.Create(application);
+  frmListarClientes.ShowModal;
+  frmListarClientes.Free;
 end;
 
 procedure TfrmPrincipal.mniTemaClick(Sender: TObject);
