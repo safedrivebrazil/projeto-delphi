@@ -10,6 +10,7 @@ object frmBaseGrid: TfrmBaseGrid
   Font.Height = -12
   Font.Name = 'Segoe UI'
   Font.Style = []
+  Position = poMainFormCenter
   TextHeight = 15
   object pnlBottom: TPanel
     Left = 0
@@ -19,47 +20,50 @@ object frmBaseGrid: TfrmBaseGrid
     Align = alBottom
     BevelOuter = bvNone
     TabOrder = 0
-    ExplicitLeft = 24
-    ExplicitTop = 8
-    ExplicitWidth = 185
+    ExplicitTop = 397
+    ExplicitWidth = 624
     DesignSize = (
       628
       41)
     object btnFechar: TButton
-      Left = 553
+      Left = 545
       Top = 6
       Width = 75
       Height = 25
       Anchors = [akTop, akRight]
       Caption = '&Fechar'
       TabOrder = 0
+      ExplicitLeft = 541
     end
     object btnEditar: TButton
-      Left = 472
+      Left = 464
       Top = 6
       Width = 75
       Height = 25
       Anchors = [akTop, akRight]
       Caption = '&Editar'
       TabOrder = 1
+      ExplicitLeft = 460
     end
     object btnExcluir: TButton
-      Left = 391
+      Left = 383
       Top = 6
       Width = 75
       Height = 25
       Anchors = [akTop, akRight]
       Caption = 'E&xcluir'
       TabOrder = 2
+      ExplicitLeft = 379
     end
     object btnQuatro: TButton
-      Left = 310
+      Left = 302
       Top = 6
       Width = 75
       Height = 25
       Anchors = [akTop, akRight]
       Caption = 'Button1'
       TabOrder = 3
+      ExplicitLeft = 298
     end
   end
   object pnlCentral: TPanel
@@ -70,16 +74,15 @@ object frmBaseGrid: TfrmBaseGrid
     Align = alClient
     BevelOuter = bvNone
     TabOrder = 1
-    ExplicitLeft = 192
-    ExplicitTop = 192
-    ExplicitWidth = 185
-    ExplicitHeight = 41
+    ExplicitWidth = 624
+    ExplicitHeight = 397
     object Grid: TDBGrid
       Left = 0
       Top = 0
       Width = 628
       Height = 401
       Align = alClient
+      DataSource = dsDados
       TabOrder = 0
       TitleFont.Charset = DEFAULT_CHARSET
       TitleFont.Color = clWindowText

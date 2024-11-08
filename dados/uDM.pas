@@ -3,9 +3,12 @@ unit uDM;
 interface
 
 uses
-  System.SysUtils, System.Classes, FireDAC.Stan.Intf, FireDAC.Stan.Option, FireDAC.Stan.Error, FireDAC.UI.Intf,
-  FireDAC.Phys.Intf, FireDAC.Stan.Def, FireDAC.Stan.Pool, FireDAC.Stan.Async, FireDAC.Phys, FireDAC.Phys.FB,
-  FireDAC.Phys.FBDef, FireDAC.VCLUI.Wait, FireDAC.Stan.Param, FireDAC.DatS, FireDAC.DApt.Intf, FireDAC.DApt,
+  System.SysUtils, System.Classes, FireDAC.Stan.Intf, FireDAC.Stan.Option,
+  FireDAC.Stan.Error, FireDAC.UI.Intf,
+  FireDAC.Phys.Intf, FireDAC.Stan.Def, FireDAC.Stan.Pool, FireDAC.Stan.Async,
+  FireDAC.Phys, FireDAC.Phys.FB,
+  FireDAC.Phys.FBDef, FireDAC.VCLUI.Wait, FireDAC.Stan.Param, FireDAC.DatS,
+  FireDAC.DApt.Intf, FireDAC.DApt,
   FireDAC.Phys.IBBase, Data.DB, FireDAC.Comp.DataSet, FireDAC.Comp.Client;
 
 type
@@ -35,23 +38,33 @@ implementation
 
 {%CLASSGROUP 'Vcl.Controls.TControl'}
 
+uses funcoes;
+
 {$R *.dfm}
 
-
 procedure TDM.DataModuleCreate(Sender: TObject);
+var
+  vBanco: String;
+  vServidor: String;
+  vPorta: String;
 begin
+  vBanco := TFuncoes.LerIni('GERAL', 'BANCO', 'C:\projetos\banco\');
+  vServidor := TFuncoes.LerIni('GERAL', 'SERVIDOR', '127.0.0.1');
+  vPorta := TFuncoes.LerIni('GERAL', 'PORTA', '3050');
+
   FireDriver := TFDPhysFBDriverLink.Create(nil);
   FireConexao := TFDConnection.Create(nil);
 
   FireDriver.DriverID := 'FB';
-  FireDriver.VendorLib := 'C:\Program Files\Firebird\Firebird_2_5\WOW64\fbclient.dll';
+  FireDriver.VendorLib :=
+    'C:\Program Files\Firebird\Firebird_2_5\WOW64\fbclient.dll';
 
   FireConexao.Params.DriverID := 'FB';
-  FireConexao.Params.Database := 'D:\curso\LOCADORA.FDB';
+  FireConexao.Params.Database := vBanco + 'LOCADORA.FDB';
   FireConexao.Params.UserName := 'PROTEGIDO';
-  FireConexao.Params.Password := '583614';
-  FireConexao.Params.Add('Host=127.0.0.1');
-  FireConexao.Params.Add('Port=3050');
+  FireConexao.Params.Password := '1234';
+  FireConexao.Params.Add('Host=' + vServidor);
+  FireConexao.Params.Add('Port=' + vPorta);
   FireConexao.Connected := true;
 end;
 

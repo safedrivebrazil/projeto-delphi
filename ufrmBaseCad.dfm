@@ -10,6 +10,7 @@ object frmBaseCad: TfrmBaseCad
   Font.Height = -12
   Font.Name = 'Segoe UI'
   Font.Style = []
+  Position = poMainFormCenter
   TextHeight = 15
   object pnlCentral: TPanel
     Left = 0
@@ -19,10 +20,8 @@ object frmBaseCad: TfrmBaseCad
     Align = alClient
     BevelOuter = bvNone
     TabOrder = 0
-    ExplicitLeft = 192
-    ExplicitTop = 192
-    ExplicitWidth = 185
-    ExplicitHeight = 41
+    ExplicitWidth = 624
+    ExplicitHeight = 397
   end
   object pnlBottom: TPanel
     Left = 0
@@ -32,27 +31,30 @@ object frmBaseCad: TfrmBaseCad
     Align = alBottom
     BevelOuter = bvNone
     TabOrder = 1
-    ExplicitTop = 407
+    ExplicitTop = 397
+    ExplicitWidth = 624
     DesignSize = (
       628
       41)
     object btnCancelar: TButton
-      Left = 472
+      Left = 468
       Top = 6
       Width = 75
       Height = 25
       Anchors = [akTop, akRight]
       Caption = '&Cancelar'
       TabOrder = 0
+      ExplicitLeft = 464
     end
     object btnOk: TButton
-      Left = 553
+      Left = 549
       Top = 6
       Width = 75
       Height = 25
       Anchors = [akTop, akRight]
       Caption = '&Ok'
       TabOrder = 1
+      ExplicitLeft = 545
     end
   end
 end
