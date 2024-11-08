@@ -2,23 +2,24 @@ unit uClientes;
 
 interface
 
-uses
-  Winapi.Windows, Winapi.Messages, System.SysUtils, System.Variants, System.Classes, Vcl.Graphics,
-  Vcl.Controls, Vcl.Forms, Vcl.Dialogs;
+uses uDM;
 
 type
-  TForm2 = class(TForm)
+  TClientes = class
   private
-    { Private declarations }
   public
-    { Public declarations }
+    function pesquisar(pTransacao: TTransacao): TQuery;
   end;
-
-var
-  Form2: TForm2;
 
 implementation
 
-{$R *.dfm}
+{ TClientes }
+
+function TClientes.pesquisar(pTransacao: TTransacao): TQuery;
+begin
+  Result:=DM.GetQuery(pTransacao);
+  Result.SQL.Add('select * from clientes');
+  Result.Open;
+end;
 
 end.
