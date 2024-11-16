@@ -106,10 +106,6 @@
             <Form>frmPrincipal</Form>
             <FormType>dfm</FormType>
         </DCCReference>
-        <DCCReference Include="uCadClientes.pas">
-            <Form>frmCadClientes</Form>
-            <FormType>dfm</FormType>
-        </DCCReference>
         <DCCReference Include="uFrmBaseGrid.pas">
             <Form>frmBaseGrid</Form>
             <FormType>dfm</FormType>
@@ -133,6 +129,10 @@
             <FormType>dfm</FormType>
         </DCCReference>
         <DCCReference Include="uClientes.pas"/>
+        <DCCReference Include="ufrmCadCliente.pas">
+            <Form>frmCadCliente</Form>
+            <FormType>dfm</FormType>
+        </DCCReference>
         <BuildConfiguration Include="Base">
             <Key>Base</Key>
         </BuildConfiguration>

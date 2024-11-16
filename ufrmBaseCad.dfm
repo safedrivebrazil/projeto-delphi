@@ -37,24 +37,34 @@ object frmBaseCad: TfrmBaseCad
       628
       41)
     object btnCancelar: TButton
-      Left = 468
+      Left = 464
       Top = 6
       Width = 75
       Height = 25
+      Action = acCancelar
       Anchors = [akTop, akRight]
-      Caption = '&Cancelar'
       TabOrder = 0
-      ExplicitLeft = 464
+      ExplicitLeft = 460
     end
     object btnOk: TButton
-      Left = 549
+      Left = 545
       Top = 6
       Width = 75
       Height = 25
+      Action = acOk
       Anchors = [akTop, akRight]
-      Caption = '&Ok'
       TabOrder = 1
-      ExplicitLeft = 545
+      ExplicitLeft = 541
+    end
+  end
+  object acGeral: TActionList
+    Left = 512
+    Top = 16
+    object acCancelar: TAction
+      Caption = '&Cancelar'
+    end
+    object acOk: TAction
+      Caption = '&Ok'
     end
   end
 end

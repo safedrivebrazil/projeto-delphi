@@ -34,7 +34,7 @@ implementation
 
 {$R *.dfm}
 
-uses uCadClientes, uFrmAjuda, ufrmListarClientes;
+uses uFrmAjuda, ufrmListarClientes;
 
 procedure TfrmPrincipal.mniClientesClick(Sender: TObject);
 begin
