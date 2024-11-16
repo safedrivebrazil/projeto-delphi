@@ -26,44 +26,44 @@ object frmBaseGrid: TfrmBaseGrid
       628
       41)
     object btnFechar: TButton
-      Left = 545
+      Left = 541
       Top = 6
       Width = 75
       Height = 25
+      Action = acFechar
       Anchors = [akTop, akRight]
-      Caption = '&Fechar'
       TabOrder = 0
-      ExplicitLeft = 541
+      ExplicitLeft = 537
     end
     object btnEditar: TButton
-      Left = 464
+      Left = 460
       Top = 6
       Width = 75
       Height = 25
+      Action = acEditar
       Anchors = [akTop, akRight]
-      Caption = '&Editar'
       TabOrder = 1
-      ExplicitLeft = 460
+      ExplicitLeft = 456
     end
     object btnExcluir: TButton
-      Left = 383
+      Left = 379
       Top = 6
       Width = 75
       Height = 25
+      Action = acExcluir
       Anchors = [akTop, akRight]
-      Caption = 'E&xcluir'
       TabOrder = 2
-      ExplicitLeft = 379
+      ExplicitLeft = 375
     end
     object btnQuatro: TButton
-      Left = 302
+      Left = 298
       Top = 6
       Width = 75
       Height = 25
+      Action = acIncluir
       Anchors = [akTop, akRight]
-      Caption = 'Button1'
       TabOrder = 3
-      ExplicitLeft = 298
+      ExplicitLeft = 294
     end
   end
   object pnlCentral: TPanel
@@ -94,5 +94,21 @@ object frmBaseGrid: TfrmBaseGrid
   object dsDados: TDataSource
     Left = 472
     Top = 16
+  end
+  object acGeral: TActionList
+    Left = 552
+    Top = 16
+    object acIncluir: TAction
+      Caption = '&Incluir'
+    end
+    object acExcluir: TAction
+      Caption = '&Excluir'
+    end
+    object acEditar: TAction
+      Caption = 'E&ditar'
+    end
+    object acFechar: TAction
+      Caption = '&Fechar'
+    end
   end
 end

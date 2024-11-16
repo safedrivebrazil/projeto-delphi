@@ -2,8 +2,8 @@ object frmPrincipal: TfrmPrincipal
   Left = 0
   Top = 0
   Caption = 'ProCadastro'
-  ClientHeight = 442
-  ClientWidth = 628
+  ClientHeight = 438
+  ClientWidth = 624
   Color = clBtnFace
   Font.Charset = DEFAULT_CHARSET
   Font.Color = clWindowText
@@ -16,23 +16,20 @@ object frmPrincipal: TfrmPrincipal
   object pnlTop: TPanel
     Left = 0
     Top = 0
-    Width = 628
+    Width = 624
     Height = 41
     Align = alTop
     BevelOuter = bvNone
     TabOrder = 0
-    ExplicitWidth = 624
   end
   object pnlCenter: TPanel
     Left = 0
     Top = 41
-    Width = 628
-    Height = 401
+    Width = 624
+    Height = 397
     Align = alClient
     BevelOuter = bvNone
     TabOrder = 1
-    ExplicitWidth = 624
-    ExplicitHeight = 397
     object imagem: TImage
       Left = 0
       Top = 0
